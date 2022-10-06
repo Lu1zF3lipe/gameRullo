@@ -1,0 +1,30 @@
+{
+  "name": "project-rullo",
+  "version": "1.0.0",
+  "description": "jogo rullo feito em javascrit, html e css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lu1zF3lipe/project-rullo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lu1zF3lipe/project-rullo/issues"
+  },
+  "homepage": "https://github.com/Lu1zF3lipe/project-rullo#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
