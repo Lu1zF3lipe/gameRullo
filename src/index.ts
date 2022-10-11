@@ -6,6 +6,7 @@ import { statusRoute } from '../routes/status.routes';
 
 const app = express();
 
+app.use(statusRoute);
 app.use(express.static(path.join(__dirname, "../public")))
 
 function main() {
