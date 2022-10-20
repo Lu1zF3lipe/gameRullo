@@ -17,9 +17,20 @@ for(var i = 0; i <= MAX_SIZE; i++){
         } else {
             const circleElement = document.createElement("div");
             circleElement.className = "grid-item";
+            circleElement.onclick = click
+            circleElement.innerText = numGenerator(30
+            )
             grid.append(circleElement);
         } 
     }   
 }
 
 grid.style = `grid-template-columns: repeat(${MAX_SIZE + 1}, auto)`
+
+function click(){
+    this.innerText = Date.now()
+}
+
+function numGenerator(max){
+    return Math.floor(Math.random() * max) + 1;
+}
